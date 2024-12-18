@@ -1,0 +1,149 @@
+.main-page {
+    background: #f2f2f2;
+    padding: 20px;
+    font-size: 1.2rem;
+    min-height: 91vh;
+}
+
+.add-order-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 3px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-order-btn:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+
+.add-order-btn:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}
+
+.add-order-btn:focus {
+    outline: none;
+}
+
+.edit-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-btn:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+
+.edit-btn:focus {
+    outline: none;
+}
+
+.cancel-order-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 3px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cancel-order-btn:hover {
+    background-color: black;
+    transform: scale(1.05);
+}
+
+.cancel-order-btn:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}
+
+.cancel-order-btn:focus {
+    outline: none;
+}
+
+.orders-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-bottom: 7px;
+    background-color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 2px solid #ddd;
+}
+
+.orders-table th,
+.orders-table td {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #ddd;
+    min-width: 120px;
+}
+
+.orders-table th {
+    background-color: #f2f2f2;
+}
+
+.orders-table td {
+    background-color: #fff;
+}
+
+.orders-table th[colspan="2"] {
+    text-align: center;
+}
+
+.orders-table input {
+    width: 90%;
+    height: 60%;
+    box-sizing: border-box;
+    padding: 1px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.orders-table td, .orders-table th {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.orders-table input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;  /* Adds spacing between the buttons */
+    justify-content: center;  /* Centers the buttons horizontally */
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
